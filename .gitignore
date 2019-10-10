@@ -1,3 +1,6 @@
 #DotNet build folders
 obj/
 bin/
+
+#vscode
+/.vscode/
