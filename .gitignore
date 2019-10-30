@@ -4,3 +4,7 @@ bin/
 
 #vscode
 /.vscode/
+
+#visual studio
+*.ide/
+.vs/
