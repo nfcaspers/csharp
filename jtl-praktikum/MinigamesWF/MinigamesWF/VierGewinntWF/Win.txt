@@ -1,0 +1,22 @@
+-------
+x  x  x
+ x x x
+  xxx
+xxxNxxx
+  xxx
+ x x x
+x  x  x
+
+1. Gehe jeweilts 3 in Jede Richtung von neuem Feld soweit möglich
+2. Bilde 4 Linien (Listen) an Feldern 
+3. Überprüfe ob eine Liste 4 von der Farbe des aktiven Spieler in einer Reihe beinhaltet (Wenn nur der aktive Spieler zur liste geaddet wird reicht List.Count >= 4)
+
+1:
+Coords.X-1 / -2 / -3 //Vertikal
+Coords X+1 / +2 / +3 //Vertikal ?Nie nach oben testen => fällt von oben => über Letzem ist nie etwas
+Coords.Y-1 / -2 / -3 //Horizontal
+Coords Y+1 / +2 / +3 //Horizontal
+Coords.X-1 Coords.Y+1 / -2 +2 / -3 +3 //Diagonal
+Coords.X+1 Coords.Y-1 / -2 +2 / -3 +3 // Diagonal
+Coords.X-1 Coords.Y+1 / -2 +2 / -3 +3 
+Corods.X+1 Coords.Y-1 / +2 -2 / +3 -3
